@@ -1,27 +1,27 @@
 module.exports = {
-  email: 'shaxad.here@gmail.com',
+  email: 'akhalid24.ak87@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/shaxadhere',
+      url: 'https://github.com/muhammad-ahmed-khalid/',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/shaxadd',
+      url: 'https://www.instagram.com/ahmed_2558/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/shaxaddd',
+      url: 'https://twitter.com/poola_ahmed',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/shaxadhere',
+      url: 'https://www.linkedin.com/in/muhammad-ahmed-khalid/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/shaxadd',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/shaxadd',
+    // },
   ],
 
   navLinks: [

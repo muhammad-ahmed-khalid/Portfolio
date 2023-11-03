@@ -136,7 +136,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Shehzad, a digital experience builder for web and mobile. My journey into app and web
+              I'm Ahmed, a digital experience builder for web and mobile. My journey into app and web
               development started in 2017 customizing Wordpress themes, where I learned HTML and CSS and
               developed an interest in creating engaging digital products. I aim to create responsive and
               intuitive designs that improve user experience across all devices.

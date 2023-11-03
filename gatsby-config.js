@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Shehzad Ahmed - Software Engineer, MERN Stack Developer and Tech Enthusiast',
+    title: 'Ahmed Khalid - Software Engineer',
     description:
-      'Shehzad Ahmed is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://shehzadahmed.tech', // No trailing slash allowed!
+      'Ahmed Khalid is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+    siteUrl: 'https://muhammad-ahmed-khalid.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@shaxaddd',
+    twitterUsername: '@poola_ahmed',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
