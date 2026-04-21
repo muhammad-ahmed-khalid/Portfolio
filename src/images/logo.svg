@@ -1,0 +1,15 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Logo</title>
+  <defs>
+    <style>
+      .hexagon { fill: #0a192f; }
+      .letter { fill: #64ffda; font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif; font-weight: 600; }
+      .border { fill: none; stroke: #64ffda; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <g>
+    <path class="hexagon" d="M 50, 5 L 11, 27 L 11, 72 L 50, 95 L 89, 73 L 89, 28 z"/>
+    <path class="border" d="M 50, 5 L 11, 27 L 11, 72 L 50, 95 L 89, 73 L 89, 28 z"/>
+    <text class="letter" font-size="55" x="50" y="68" text-anchor="middle">A</text>
+  </g>
+</svg>

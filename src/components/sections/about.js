@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'React Native', 'Nest.js', 'Node.js', 'Next.js', 'MongoDB', 'MySQL', 'PHP', '.Net Core', 'Vue.js'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'React Native',"REST APIs", "GIT"];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,19 +136,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Ahmed, a digital experience builder for web and mobile. My journey into app and web
-              development started in 2017 customizing Wordpress themes, where I learned HTML and CSS and
-              developed an interest in creating engaging digital products. I aim to create responsive and
-              intuitive designs that improve user experience across all devices.
+             I’m Ahmed, a software engineer specializing in building scalable web and mobile applications. I started my journey in web development and gradually moved into creating high-performance applications using modern JavaScript frameworks.
+
+I focus on writing clean, maintainable code and delivering seamless user experiences across platforms. Currently, I’m working at Koderlabs, where I build and improve production-grade applications.
+
+Here are a few technologies I’ve been working with recently:
             </p>
 
-            <p>
+            {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://koderlabs.com/">a huge corporation</a>,{' '}
               <a href="https://ptax.tax/">a start-up</a>,{' '}
               <a href="https://artt.edu.pk/">a school</a>, and{' '}
               <a href="https://finesols.com/">a software & design agency</a>. Currently, my primary goal at <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and accessible digital products and experiences for diverse clients
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>

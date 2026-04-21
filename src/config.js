@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'akhalid24.ak87@gmail.com',
+  email: 'muhammad.ahmedkhalid24@gmail.com',
 
   socialMedia: [
     {
@@ -10,10 +10,10 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/ahmed_2558/',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/poola_ahmed',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/poola_ahmed',
+    // },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/muhammad-ahmed-khalid/',

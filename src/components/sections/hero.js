@@ -60,13 +60,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Ahmed Khalid.</h2>;
-  const three = <h3 className="big-heading">I build things for the web / Mobile App</h3>;
+  const two = <h2 className="big-heading">Muhammad Ahmed Khalid.</h2>;
+  const three = <h3 className="medium-heading">I build scalable, performant web and mobile applications with React & React Native.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        I’m a software engineer specializing in building scalable, high-quality digital products. 
+        I focus on performance, clean architecture, and delivering seamless user experiences. Currently, I’m working 
         at{' '}
         <a href="https://koderlabs.com/" target="_blank" rel="noreferrer">
           Koderlabs
@@ -78,7 +78,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="mailto:akhalid24.ak87@gmail.com"
+      href="mailto:muhammad.ahmedkhalid24@gmail.com"
       target="_blank"
       rel="noreferrer">
       Hire me for your next project!
