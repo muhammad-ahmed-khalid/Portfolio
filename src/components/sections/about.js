@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
-import MeImage from "../../images/Ahmed-Image.jpg";
+import MeImage from "../../images/AhmedKhalid.jpg";
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
