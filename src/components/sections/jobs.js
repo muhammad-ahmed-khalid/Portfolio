@@ -242,6 +242,8 @@ const Jobs = () => {
     }
   };
 
+  console.log(jobsData, "jobsDatajobsDatajobsData")
+
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
       <h2 className="numbered-heading">Where I’ve Worked</h2>

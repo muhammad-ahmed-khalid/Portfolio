@@ -69,8 +69,8 @@ const StyledPic = styled.div`
       outline: 0;
 
       &:after {
-        top: 15px;
-        left: 15px;
+        top: 0px;
+        left: 0px;
       }
 
       .img {
@@ -82,8 +82,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'React Native',"REST APIs", "GIT"];
+  const skills = ['React Native', 'React.js', 'JavaScript (ES6+)', 'TypeScript', "REST APIs", "GIT", "Tailwind CSS", "ShadCN UI"];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,12 +136,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-             I’m Ahmed, a software engineer specializing in building scalable web and mobile applications. I started my journey in web development and gradually moved into creating high-performance applications using modern JavaScript frameworks.
+              I'm Mohammad Ahmed Khalid, a Frontend Engineer with 4.5+ years of experience building scalable web and mobile applications. I specialize in the React and React Native ecosystem, focusing on delivering seamless, high-performance user experiences.</p>
 
-I focus on writing clean, maintainable code and delivering seamless user experiences across platforms. Currently, I’m working at Koderlabs, where I build and improve production-grade applications.
 
-Here are a few technologies I’ve been working with recently:
+            <p>Currently at  <a href="https://koderlabs.com/">Koderlabs</a>, I work on creating accessible, maintainable, and user-centric digital products. Beyond coding, I focus on performance optimization and mentoring developers to ensure high-quality, scalable systems.
             </p>
+            <p>What I bring to the table:</p>
+            <ul>
+              <li><b>Real-Time Collaboration:</b> Experience in solving complex synchronization problems and building
+                real-time collaborative platforms.</li>
+              <li><b>Mobile Mastery:</b> Strong expertise in React Native, optimizing app performance, handling complex state management, and delivering smooth cross-platform experiences.</li>
+              <li><b>Performance First:</b> Focused on efficient data handling, optimized rendering, and network-aware architectures to ensure fast and responsive applications.</li>
+            </ul>
 
             {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
@@ -151,7 +157,6 @@ Here are a few technologies I’ve been working with recently:
               <a href="https://finesols.com/">a software & design agency</a>. Currently, my primary goal at <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and accessible digital products and experiences for diverse clients
             </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

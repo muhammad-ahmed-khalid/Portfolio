@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building scalable, high-quality digital products. 
+        I’m a Software Engineer specializing in building scalable, high-quality digital products. 
         I focus on performance, clean architecture, and delivering seamless user experiences. Currently, I’m working 
         at{' '}
         <a href="https://koderlabs.com/" target="_blank" rel="noreferrer">
