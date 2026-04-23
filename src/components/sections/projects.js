@@ -267,9 +267,9 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
 
-      <Link className="more-button" style={{margin:"0px auto 80px"}} to="/archive" ref={revealArchiveLink}>
+      {/* <Link className="more-button" style={{margin:"0px auto 80px"}} to="/archive" ref={revealArchiveLink}>
         view more in archive
-      </Link>
+      </Link> */}
 
       {/* <ul className="projects-grid">
         {prefersReducedMotion ? (
