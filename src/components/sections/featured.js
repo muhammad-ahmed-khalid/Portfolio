@@ -282,22 +282,16 @@ const StyledProject = styled.li`
         right: 0;
         bottom: 0;
         z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
   }
@@ -321,6 +315,8 @@ const Featured = () => {
               }
               tech
               github
+              appstore
+              playstore
               external
               cta
             }
@@ -355,7 +351,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, appstore, playstore, cover, cta } = frontmatter || {};
             const image = getImage(cover);
 
             return (
@@ -373,7 +369,7 @@ const Featured = () => {
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
-                    {tech.length && (
+                    {tech?.length && (
                       <ul className="project-tech-list">
                         {tech.map((tech, i) => (
                           <li key={i}>{tech}</li>
@@ -392,6 +388,16 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
+                      {appstore && (
+                        <a href={appstore} target='_blank' aria-label="App Store Link">
+                          <Icon name="AppStore" />
+                        </a>
+                      )}
+                      {playstore && (
+                        <a href={playstore} target='_blank' aria-label="Google Play Store Link">
+                          <Icon name="PlayStore" />
+                        </a>
+                      )}
                       {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -402,7 +408,18 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a
+                    href={
+                      external
+                        ? external
+                        : github
+                        ? github
+                        : appstore
+                        ? appstore
+                        : playstore
+                        ? playstore
+                        : '#'
+                    }>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
