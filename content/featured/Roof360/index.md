@@ -3,6 +3,8 @@ date: '1'
 title: 'Roof360'
 cover: './Roof360.png'
 external: 'https://roof360.do/'
+appstore: 'https://apps.apple.com/us/iphone/search?term=roof360'
+playstore: 'https://play.google.com/store/apps/details?id=com.roof360.app'
 tech:
   - Next.js
   - React Native

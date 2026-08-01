@@ -10,10 +10,12 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",  "engines": {
+  "license": "MIT",
+  "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
-  },  "browserslist": "> 0.25%, not dead",
+  },
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
